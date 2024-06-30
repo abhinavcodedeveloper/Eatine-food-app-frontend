@@ -1,20 +1,14 @@
-import React from "react";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "../components/ui/sheet";
 import { Button } from "./ui/button";
 import { useAuth0 } from "@auth0/auth0-react";
-import { isUint16Array } from "util/types";
-import { isatty } from "tty";
 import MobileNavContent from "./MobileNavContent";
 
 const MobileNav = () => {
-  const { loginWithRedirect, user, isAuthenticated } = useAuth0();
+  const { loginWithRedirect,  isAuthenticated } = useAuth0();
   return (
     <div>
       <Sheet>
