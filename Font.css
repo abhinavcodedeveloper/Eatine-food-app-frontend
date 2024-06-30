@@ -1,0 +1,21 @@
+@font-face {
+    font-family: clash;
+    src: url('/ClashDisplay-Medium.ttf');
+}
+.clash{
+    font-family: clash;
+}
+@font-face {
+    font-family: clashl;
+    src: url('../public/ClashDisplay-Light.ttf');
+}
+.clashl{
+    font-family: clashl;
+}
+@font-face {
+    font-family: clashb;
+    src: url('/public/ClashDisplay-Bold.ttf');
+}
+.clashb{
+    font-family: clashb;
+}
